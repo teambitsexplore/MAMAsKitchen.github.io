@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <title>MAMA'S KITCHEN</title>
+	 <link rel="stylesheet" href="../Css/Css Style.css">
+	 <ul>
+  <li><a class="active" href="Chicken.html">Chicken</a></li>
+  <li><a href="Pork .html">Pork</a></li>
+  <li><a href="Beef.html">Beef</a></li>
+  <li><a href="Index.html">Home</a></li>
+</ul>
+<a href="../Html/Index.html"><img src="../Pictures/Logo.png" width="200" height="115" align= left class="logo"></a>
+<h1 class="textalign"><center>MAMA'S KITCHEN</center></h1>
+	 <!-- Logo I made -->
+   <hr>
+   </head>
+   <body>
+   <SCRIPT language="JavaScript">
+<!-- Script courtesy of http://www.web-source.net - Your Guide to Professional Web Site Design and Development
+var today_date= new Date()
+var month=today_date.getMonth()+1
+var today=today_date.getDate()
+var year=today_date.getFullYear()
+//document.write("Today's date is: ")
+document.write(month+"/"+today+"/"+year)
+//--> </SCRIPT>
+	 <br>
+	 <table>
+	 <tr>
+	 <th><h2>Chicken Curry</h2></th>
+	 <th><h2>Ingredients</h2></th>
+	 </tr>
+	 <tr>
+	 <td><img src="../Pictures/Chicken Curry.jpg" alt="Chicken Curry" height="280" width="300"></td>
+	 <td class="recipes">
+	 <p class="text1">2-3 tablespoons vegetable oil</p>
+     <p class="text1">1 medium potato (- cut into wedges)</p>
+     <p class="text1">1 medium carrot (- cut into wedges)</p>
+     <p class="text1">3 cloves garlic (- minced)</p>
+     <p class="text1">1 small onion (- chopped)</p>
+	 <!-- Image and Recipes retrived from https://www.foxyfolksy.com/chicken-curry-with-coconut-milk/ -->
+	</td>
+	</tr>
+	</table>
+	<hr>
+	<h2>Direction:</h2>
+	<p class="Direction">1. First, fry some carrots and potatoes until the edges are lightly browned. Remove them from the pan to add back later.</p>
+	<p class="Direction">2. Cook chicken in a mix of spices; oil, garlic, onions,  ground pepper, curry powder, and paprika.</p>
+	<p class="Direction">3. Next, simmer in coconut milk to cook the chicken through.</p>
+	<p class="Direction">4. Add the vegetables and a little chili and simmer again until the meat becomes tender and to reduce the liquids to a thick sauce.</p>
+   <br>
+   <table>
+   <tr>
+   <th><h2>Chicken Cordon</h2></th>
+   <th><h2>Ingredients</h2></th>
+   </tr>
+   <tr>
+   <td><img src="../Pictures/Chicken Cordon.jpg" alt="Chicken Cordon" height="280" width="300"></td>
+   <td class="recipes">
+   <p class="text1">4 small boneless skinless chicken breast halves
+salt and pepper to taste</p>
+     <p class="text1">32 thin slices of Swiss cheese</p>
+     <p class="text1">12-16 slices ham)</p>
+     <p class="text1">1 cup flour</p>
+	 <!-- Image and Recipes retrived from https://omgchocolatedesserts.com/chicken-cordon-bleu/ -->
+	</td>
+	</tr>
+	</table>
+	<hr>
+	<h2>Direction:</h2>
+	<p class="Direction">1. Place each chicken breast half between sheets of plastic wrap and pound with a rolling pin to about 1/8-inch thickness, trying to get nearly rectangular shape. Season with salt and pepper to taste.</p>
+	<p class="Direction">2. Arrange 4 slices of cheese on each chicken. Arrange ham slices over cheese. Then arrange another layer of cheese over the ham. Starting from the wider side, roll tightly each chicken breast with ham and cheese inside. Wrap each chicken breast in plastic wrap and twist the ends to tight the roll. Freeze 20-to 30 minutes to slightly firm on the outside.</p>
+	<p class="Direction">3. When ready to fry, heat the oil in a large skillet or deep fryer. Prepare dishes with flour, eggs and breadcrumbs to dip the chicken.</p>
+	<p class="Direction">4. Unwrap the rolls from plastic wrap and dip in flour to cover completely. Next dip in eggs. Finally dip in breadcrumbs.</p>
+	<p class="Direction">5. Fry until breadcrumbs are golden-brown and the chicken is cooked through.</p>
+    <p class="Direction">6. To make the sauce in a saucepan melt the butter. Add garlic powder and flour, stir for 1-2 minutes over medium heat, then whisk in milk. Whisk in mustard and grated Parmesan cheese. Season with salt and pepper to taste. Cook for a few more minutes, whisking constantly, until it thickens.</p>
+	<br>
+	<!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
+<script>
+var displayed="<nobr><font size=2 face=Arial><b>[Return to Top]</b></font></nobr>"
+
+// === DO NOT EDIT ANYTHING BELOW THIS LINE!!! === //
+
+var logolink='javascript:window.scrollTo(0,0)'
+var ns4=document.layers
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+function regenerate(){
+window.location.reload()
+}
+function regenerate2(){
+if (ns4)
+setTimeout("window.onresize=regenerate",400)
+}
+
+if (ie4||ns6)
+document.write('<span id="logo" style="position:absolute;top:-300;z-index:100">'+displayed+'</span>')
+
+function createtext(){ //function for NS4
+staticimage=new Layer(5)
+staticimage.left=-300
+staticimage.document.write('<a href="'+logolink+'">'+displayed+'</a>')
+staticimage.document.close()
+staticimage.visibility="show"
+regenerate2()
+staticitns()
+}
+
+function staticit(){ //function for IE4/ NS6
+var w2=ns6? pageXOffset+w : document.body.scrollLeft+w
+var h2=ns6? pageYOffset+h : document.body.scrollTop+h
+crosslogo.style.left=w2
+crosslogo.style.top=h2
+}
+
+function staticit2(){ //function for NS4
+staticimage.left=pageXOffset+window.innerWidth-staticimage.document.width-28
+staticimage.top=pageYOffset+window.innerHeight-staticimage.document.height-10
+}
+
+function inserttext(){ //function for IE4/ NS6
+if (ie4)
+crosslogo=document.all.logo
+else if (ns6)
+crosslogo=document.getElementById("logo")
+crosslogo.innerHTML='<a href="'+logolink+'">'+displayed+'</a>'
+w=ns6? window.innerWidth-crosslogo.offsetWidth-20 : document.body.clientWidth-crosslogo.offsetWidth-10
+h=ns6? window.innerHeight-crosslogo.offsetHeight-15 : document.body.clientHeight-crosslogo.offsetHeight-10
+crosslogo.style.left=w
+crosslogo.style.top=h
+if (ie4)
+window.onscroll=staticit
+else if (ns6)
+startstatic=setInterval("staticit()",100)
+}
+
+if (ie4||ns6){
+window.onload=inserttext
+window.onresize=new Function("window.location.reload()")
+}
+else if (ns4)
+window.onload=createtext
+
+function staticitns(){ //function for NS4
+startstatic=setInterval("staticit2()",90)
+}
+
+//-->
+</script>
+<!-- Got the javascript from https://www.javascriptfreecode.com/21.htm -->
+<br>
+   <footer>
+   <p><center class="footer">&copy;2020 MAMA'S KITCHEN</center></p>
+</html>
+	
